@@ -1,0 +1,22 @@
+{
+    "name": "magemontreal/magento2-language-fr_ca",
+    "version": "1.0.0",
+    "type": "magento2-language",
+    "description": "Custom fr_CA language package.",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*",
+        "community-engineering/language-fr_ca": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
